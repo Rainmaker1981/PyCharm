@@ -2,25 +2,22 @@ from My_Circle import My_Circle as mc
 
 
 def main():
-    print("Mark Meyer \nCYBR 150 - Lab 3\nFeb 1, 2026\n\n")
+    c1 = mc("circle_1", 20)
+    c2 = mc("circle_2", 30)
+    c3 = mc("circle_1", 20)
 
-    # task 4/5
-    c1 = mc("c1", 2)
-    c2 = mc("c2", 3)
+    # String function testing
+    print(c1)
+    print(c2)
+    print(c3)
 
-    # task 6
-    print(c1.get_name(), c1.get_radius())
-    print(c2.get_name(), c2.get_radius())
-    print()
+    # Test Equal
+    print(c1.equal_to(c3))
 
-    c1.set_radius(10)
-    c1.set_name("circle_1")
-    c2.set_radius(20)
-    c2.set_name("circle_2")
-
-    print("c1 name:", c1.get_name(), "radius:", c1.get_radius())
-    print("c2 name:", c2.get_name(), "radius:", c2.get_radius())
-    print()
+    # Test Compare To
+    print(c1.compare_to(c2))
+    print(c2.compare_to(c1))
+    print(c1.compare_to(c3))
 
 if __name__ == "__main__":
     main()
