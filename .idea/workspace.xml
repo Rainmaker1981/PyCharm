@@ -4,10 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec30408c-26d4-4873-99a1-2f82dc159c93" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Module 3/Lab 3/My_Circle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module 3/Lab 3/My_Circle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module 3/Lab 3/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module 3/Lab 3/driver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module 4/Class Helper Exercises/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module 4/Class Helper Exercises/driver.py" afterDir="false" />
+    <list default="true" id="ec30408c-26d4-4873-99a1-2f82dc159c93" name="Changes" comment="Module 4">
+      <change afterPath="$PROJECT_DIR$/Module 5/Inheritance/Admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 5/Inheritance/Appliance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 5/Inheritance/Bedroom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 5/Inheritance/Dishwasher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 5/Inheritance/Employee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 5/Inheritance/Freezer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 5/Inheritance/Garage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 5/Inheritance/Kitchen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 5/Inheritance/Refrigerator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 5/Inheritance/Room.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 5/Inheritance/Student.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 5/Inheritance/User.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 5/Inheritance/driver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 5/Lab 5/Automobile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 5/Lab 5/Car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 5/Lab 5/Truck.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 6/Lab 6/Car.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module 4/Class Helper Exercises/Helper2.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Module 4/Class Helper Exercises/Helper2.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module 5/Lab 5/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module 5/Lab 5/driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module 6/Lab 6/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module 6/Lab 6/driver.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +68,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Rainmaker1981/PyCharm&quot;,
+    &quot;url&quot;: &quot;https://github.com/Rainmaker1981/PyCharm.git&quot;,
     &quot;accountId&quot;: &quot;0f08489c-cb9b-4e0c-8d4b-dcac6a41f3cf&quot;
   }
 }</component>
@@ -62,36 +80,50 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="395m2NY7XDJwWxeiF5WyA1A0wx3" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Airplane.executor": "Run",
-    "Python.Circle.executor": "Run",
-    "Python.My_Circle.executor": "Run",
-    "Python.Rhombus.executor": "Run",
-    "Python.driver.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "ai.playground.ignore.import.keys.banner.in.settings": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Airplane.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Automobile.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Car.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Circle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Dishwasher.executor&quot;: &quot;Run&quot;,
+    &quot;Python.My_Circle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Rhombus.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Truck.executor&quot;: &quot;Run&quot;,
+    &quot;Python.driver.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mrmar\PycharmProjects\OOP\PyCharm\Module 5\Inheritance" />
+      <recent name="C:\Users\mrmar\PycharmProjects\OOP\PyCharm\Module 5\Inheritance\Exercise 1" />
+      <recent name="C:\Users\mrmar\PycharmProjects\OOP\PyCharm\Module 5\Inheritance\Exercise 2" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -108,12 +140,35 @@
       <option name="presentableId" value="Default" />
       <updated>1769994100158</updated>
       <workItem from="1769994101257" duration="691000" />
-      <workItem from="1770608882340" duration="6421000" />
+      <workItem from="1770608882340" duration="6728000" />
+      <workItem from="1771135112088" duration="5851000" />
+      <workItem from="1771435640676" duration="1624000" />
     </task>
+    <task id="LOCAL-00001" summary="Module 4">
+      <option name="closed" value="true" />
+      <created>1770615379164</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770615379164</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Module 4">
+      <option name="closed" value="true" />
+      <created>1770615564249</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770615564249</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Module 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -127,10 +182,14 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PyCharm$Car.coverage" NAME="Car Coverage Results" MODIFIED="1771137844597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module 5/Lab 5" />
     <SUITE FILE_PATH="coverage/PyCharm$Rhombus.coverage" NAME="Rhombus Coverage Results" MODIFIED="1770615063806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module 4/Class Helper Exercises" />
     <SUITE FILE_PATH="coverage/PyCharm$My_Circle.coverage" NAME="My_Circle Coverage Results" MODIFIED="1770611054095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module 3/Lab 3" />
     <SUITE FILE_PATH="coverage/PyCharm$Airplane.coverage" NAME="Airplane Coverage Results" MODIFIED="1770614527535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module 4/Class Helper Exercises" />
-    <SUITE FILE_PATH="coverage/PyCharm$driver.coverage" NAME="driver Coverage Results" MODIFIED="1770615275792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module 4/Class Helper Exercises" />
+    <SUITE FILE_PATH="coverage/PyCharm$Truck.coverage" NAME="Truck Coverage Results" MODIFIED="1771138140577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module 5/Lab 5" />
+    <SUITE FILE_PATH="coverage/PyCharm$Automobile.coverage" NAME="Automobile Coverage Results" MODIFIED="1771137332891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module 5/Lab 5" />
+    <SUITE FILE_PATH="coverage/PyCharm$driver.coverage" NAME="driver Coverage Results" MODIFIED="1771140312336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module 5/Inheritance" />
     <SUITE FILE_PATH="coverage/PyCharm$Circle.coverage" NAME="Circle Coverage Results" MODIFIED="1770614444621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module 4/Class Helper Exercises" />
+    <SUITE FILE_PATH="coverage/PyCharm$Dishwasher.coverage" NAME="Dishwasher Coverage Results" MODIFIED="1771140307618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module 5/Inheritance" />
   </component>
 </project>
