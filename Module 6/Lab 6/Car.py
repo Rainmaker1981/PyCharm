@@ -1,26 +1,48 @@
 class Car:
     __MAX: 100
-    __acceleration: None
-    __deceleration: None
-    __owner: None
-    __current_speed: None
-    __distance_traveled: None
-    __trip_time: None
-    __max_speed: None
+    __acceleration: 5
+    __deceleration: 5
+    __owner: ""
+    __current_speed: -1
+    __distance_traveled: -1
+    __trip_time: -1
+    __max_speed: -1
     __speeds: []
 
-    def __init__( owner, cur_speed, dist, trip_time, max_speed):
-        Pass
+    def __init__(self, owner, cur_speed=0, dist=0, trip_time=0.0, max_speed=0.0):
+        self.__owner = owner
+        self.__acceleration = 5
+        self.__deceleration = 5
+        self.__current_speed = cur_speed
+        self.__distance_traveled = dist
+        self.__trip_time = trip_time
+        self.__max_speed = max_speed
+        self.__speeds = []
 
     # helper
     def move(self):
-        pass
-    def acceleration(self):
-        pass
+        if self.__current_speed > 0:
+            self.__distance_traveled += 1
+            self.__trip_time += 60 / self.__current_speed
+
+    def acceleration(self, target_speed):
+        if target_speed > self.__max_speed:
+            target_speed = self.__max_speed
+
+        while self.__current_speed < target_speed:
+            self.__current_speed += 5
+            self.__speeds.append(self.__current_speed)
+
     def brake(self):
-        pass
+        new_speed = self.__current_speed - self.__deceleration
+        if new_speed < 0:
+            new_speed = 0
+        self.set_current_speed(new_speed)
+
     def get_avg_speed(self):
-        pass
+        if len(self.__speeds) == 0:
+            return 0
+        return sum(self.__speeds) / len(self.__speeds)
 
     # getters
     def get_owner(self):
@@ -48,9 +70,10 @@ class Car:
 
     # string
     def __str__(self):
-        return "Car Description: \n\t Owner: \t\t" + str(self.get_owner()) + \
-            "Current Speed: \t" + str(self.get_current_speed()) + " Mph" + \
-            "Distance: \t" + str(self.get_distance_traveled()) +" Miles" + \
-            "Time: \t\t" + str(self.get_trip_time()) + " Minutes" + \
-            "Max Speed: \t" + str(self.get_max_speed()) + " Mph" + \
-            "Avg Speed: \t" + str(self.get_avg_speed()) + " Mph"
+        return "Car Description:\n" + \
+            "\tOwner:\t\t\t" + str(self.get_owner()) + "\n" + \
+            "\tCurrent Speed:\t" + str(self.get_current_speed()) + " Mph\n" + \
+            "\tDistance:\t\t" + str(self.get_distance_traveled()) + " Miles\n" + \
+            "\tTime:\t\t\t" + str(self.get_trip_time()) + " Minutes\n" + \
+            "\tMax Speed:\t\t" + str(self.get_max_speed()) + " Mph\n" + \
+            "\tAvg Speed:\t\t" + str(self.get_avg_speed()) + " Mph"

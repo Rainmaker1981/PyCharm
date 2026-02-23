@@ -6,19 +6,20 @@ def main():
 
 
 def get_to_speed(car, speed):
-    # Delete pass and add your code
-    pass
+    accel = int(speed / car._Car__acceleration) + 1
+    for i in range(accel):
+        car.acceleration(i)
 
 
 def go_x_miles(car, distance):
-    # Delete pass and add your code
-    pass
+    for i in range(distance):
+        car.move()
 
 
 def brake_to_speed(car, speed):
-    # Delete pass and add your code
-    pass
-
+    brake = int((car.get_current_speed() - speed) / car._Car__deceleration)
+    for i in range(brake):
+        car.brake()
 
 def take_a_trip():
     # Start the simulation
