@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec30408c-26d4-4873-99a1-2f82dc159c93" name="Changes" comment="Module 4">
-      <change afterPath="$PROJECT_DIR$/Module 5/Inheritance/Admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module 5/Inheritance/Appliance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module 5/Inheritance/Bedroom.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module 5/Inheritance/Dishwasher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module 5/Inheritance/Employee.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module 5/Inheritance/Freezer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module 5/Inheritance/Garage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module 5/Inheritance/Kitchen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module 5/Inheritance/Refrigerator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module 5/Inheritance/Room.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module 5/Inheritance/Student.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module 5/Inheritance/User.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module 5/Inheritance/driver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module 5/Lab 5/Automobile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module 5/Lab 5/Car.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module 5/Lab 5/Truck.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module 6/Lab 6/Car.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module 4/Class Helper Exercises/Helper2.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Module 4/Class Helper Exercises/Helper2.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module 5/Lab 5/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module 5/Lab 5/driver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module 6/Lab 6/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module 6/Lab 6/driver.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,8 +107,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.29346.308" />
-        <option value="bundled-python-sdk-ca5e2b39c7df-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.308" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.30387.173" />
+        <option value="bundled-python-sdk-4762d8aabb82-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.30387.173" />
       </set>
     </attachedChunks>
   </component>
@@ -142,7 +122,9 @@
       <workItem from="1769994101257" duration="691000" />
       <workItem from="1770608882340" duration="6728000" />
       <workItem from="1771135112088" duration="5851000" />
-      <workItem from="1771435640676" duration="1624000" />
+      <workItem from="1771435640676" duration="2785000" />
+      <workItem from="1771440247701" duration="2124000" />
+      <workItem from="1771819168391" duration="534000" />
     </task>
     <task id="LOCAL-00001" summary="Module 4">
       <option name="closed" value="true" />
@@ -160,7 +142,23 @@
       <option name="project" value="LOCAL" />
       <updated>1770615564249</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Module 4">
+      <option name="closed" value="true" />
+      <created>1771437525955</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1771437525955</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Module 4">
+      <option name="closed" value="true" />
+      <created>1771437569976</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1771437569976</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
